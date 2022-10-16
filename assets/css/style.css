@@ -1,0 +1,93 @@
+.header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 10%;
+  border: double;
+}
+
+.header-01 {
+  padding-left: 10%;
+}
+
+.header-02 {
+  padding-right: 10%;
+}
+#linea01 {
+  margin-inline: 10%;
+}
+
+.stock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0%;
+  
+}
+
+li {
+  font-size: 2em;
+}
+
+.barca {
+  width: 300px;
+  height: 300px;
+}
+
+.psg {
+  width: 300px;
+  height: 300px;
+}
+
+.argentina {
+  width: 300px;
+  height: 300px;
+}
+
+.middle {
+  
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+
+.compra {
+  background-color: aqua;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.compra:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-inline: 20%;
+  margin-inline: 10%;
+  height: 2.5em;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+
+#imagen-titulo {
+  width: 270px;
+}
+
+
+.interno {
+  width: 50%;
+  border: double;
+}
